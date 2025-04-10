@@ -52,7 +52,7 @@ SHA1SUM = sha1sum
 ######################### Targets ###########################
 
 all: $(ROM)
-	@$(SHA1SUM) -c $(TARGET).sha1
+	@$(SHA1SUM) -c $(REFLECT).sha1
 
 clean:
 	$(RM) -r $(BUILD_DIR)
